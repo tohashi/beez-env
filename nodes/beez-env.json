@@ -2,6 +2,7 @@
   "run_list":[
     "apt",
     "git",
-    "nodejs"
+    "nodejs",
+    "beez-deps"
   ]
 }
