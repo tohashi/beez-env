@@ -10,7 +10,7 @@ bash "install yum packages" do
   cwd "/home"
   user "root"
   code <<-EOH
-    yum install -y imagemagick optipng jpegoptim pngquant
+    yum install -y ImageMagick optipng jpegoptim pngquant
     EOH
 end
 
