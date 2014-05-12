@@ -6,6 +6,14 @@
 #
 # All rights reserved - Do Not Redistribute
 
+bash "install yum packages" do
+  cwd "/home"
+  user "root"
+  code <<-EOH
+    yum install -y imagemagick optipng jpegoptim pngquant
+    EOH
+end
+
 bash "install npm packages" do
   cwd "/home"
   user "root"
