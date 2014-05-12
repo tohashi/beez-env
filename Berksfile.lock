@@ -1,5 +1,4 @@
 DEPENDENCIES
-  apt
   git
   nodejs
 
