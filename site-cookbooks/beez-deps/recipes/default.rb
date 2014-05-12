@@ -2,7 +2,7 @@
 # Cookbook Name:: beez-deps
 # Recipe:: default
 #
-# Copyright 2014, YOUR_COMPANY_NAME
+# Copyright 2014, t93
 #
 # All rights reserved - Do Not Redistribute
 

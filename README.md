@@ -1,10 +1,10 @@
-### beez-env
+# beez-env
 
 ## About
 
-A virtual environment for beez and beez-foundation
+A virtual environment for [beez](https://github.com/CyberAgent/beez) and [beez-foundation](https://github.com/CyberAgent/beez-foundation).
 
-## Dependencies
+## Requirements
 
 - Vagrant
 - Chef
@@ -18,5 +18,5 @@ $ berks vendor ./cookbooks
 $ vagrant up
 $ vagrant ssh-config --host beez-env >> /path/to/ssh-config
 $ knife solo prepare vagrant@beez-env
-$ knife cook prepare vagrant@beez-env
+$ knife solo cook vagrant@beez-env
 ```

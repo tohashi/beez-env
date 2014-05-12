@@ -1,6 +1,6 @@
 name             'beez-deps'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       't93'
+maintainer_email 'dots64if@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures beez-deps'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
