@@ -10,7 +10,20 @@ bash "install yum packages" do
   cwd "/home"
   user "root"
   code <<-EOH
-    yum install -y ImageMagick optipng jpegoptim pngquant
+    yum install -y wget optipng jpegoptim pngquant libjpeg-devel libpng-devel
+    EOH
+end
+
+bash "install ImageMagick" do
+  cwd "/home"
+  user "root"
+  code <<-EOH
+    wget ftp://ftp.kddlabs.co.jp/graphics/ImageMagick/ImageMagick-6.8.9-1.tar.gz
+    tar zxvf ImageMagick-6.8.9-1.tar.gz
+    cd ImageMagick-6.8.9-1
+    ./configure
+    make
+    make install
     EOH
 end
 
